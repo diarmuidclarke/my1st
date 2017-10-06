@@ -3,6 +3,9 @@
 void main(void)
 {
   MessageBox("hellow world");
-  log_me_up();
+
+  log("phew, started ok");
+  system_shutdown();
+
   exit;
 }
